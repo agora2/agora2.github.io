@@ -1,0 +1,19 @@
+# dependencies
+.npm
+node_modules/
+
+# testing
+coverage
+
+# production
+public/
+.env
+
+# misc
+.DS_Store
+.idea
+.vscode
+.cache
+logs
+*.log
+npm-debug.log*
