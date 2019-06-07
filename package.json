@@ -34,11 +34,13 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "start": "npm run dev",
+    "deploy": "npm run build && gh-pages -d public -b master",
     "format": "prettier --write \"src/**/*.js\"",
     "clean": "rm -rf .cache && rm -rf public"
   },
   "devDependencies": {
     "gatsby": "^2.8.6",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.15.2"
   }
 }
