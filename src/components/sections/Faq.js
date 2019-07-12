@@ -7,36 +7,43 @@ import ExternalLink from '@common/ExternalLink';
 
 const FAQS = [
   {
-    title: 'What tech does Gatsby use?',
+    title: 'Quién ideó y quién financia este proyecto?',
     content: () => (
       <>
-        Enjoy the power of the latest web technologies – React.js , Webpack , modern JavaScript and
-        CSS and more — all set up and waiting for you to start building
+        Ágora 2 es una idea de que nace de un debate entre sus fundadores, ciudadanos cubanos, sin mediación, 
+      motivación o injerencia de ninguna otra instancia, nacional o extranjera. Su financiamiento provendrá 
+      exclusivamente de ciudadanos cubanos con derecho al voto, y el dinero se usará para pagar los servicios 
+      de la web. El equipo trabajará siempre de forma voluntaria y no remunerada.
+
       </>
     )
   },
   {
-    title: 'Where can you source data from?',
+    title: 'Cómo puedo ayudar?',
     content: () => (
       <>
-        Gatsby’s rich data plugin ecosystem lets you build sites with the data you want — from one
-        or many sources: Pull data from headless CMSs, SaaS services, APIs, databases, your file
-        system, and more directly into your pages using GraphQL.
+        Hay tres formas fundamentales de ayudar al proyecto. La primera es como miembro del equipo. Para eso 
+      puede enviarnos su disposición via email a la dirección admin@agora2.org o contactar directamente a un 
+      miembro del equipo. La segunda es contribuyendo con la divulgación del proyecto a nivel comunitario para 
+      motivar la participación popular en los debates de Ágora. Y la tercera es haciendo una donación a la cuenta 
+      del proyecto (esta cuenta todavía no existe), que se usará para pagar los servicios de hosting del sitio web.
       </>
     )
   },
   {
-    title: 'How do I scale Gatsby sites?',
+    title: 'Qué filiación política tiene Ágora 2?',
     content: () => (
       <>
-        Gatsby.js is Internet Scale. Forget complicated deploys with databases and servers and their
-        expensive, time-consuming setup costs, maintenance, and scaling fears. Gatsby.js builds your
-        site as “static” files which can be deployed easily on dozens of services.
+        Ágora 2 se esforzará en no preferenciar ninguna inclinación política más allá de la observancia 
+      estricta de la constitución de la República de Cuba. Como está recogido en nuestro código de conducta, 
+      cada miembro del equipo se compromete a que sus sesgos políticos individuales no interfieran con los 
+      objetios democráticos del proyecto. La meta es garantizar que todas las opiniones, expresadas adecuadamente, 
+      tengan espacio y respeto.
       </>
     )
   },
   {
-    title: 'How does do I future-proof my website?',
+    title: 'Por qué habrán dos tipos de usuario?',
     content: () => (
       <>
         Do not build a website with last decade’s tech. The future of the web is mobile, JavaScript
@@ -51,10 +58,12 @@ const FAQS = [
     title: 'What exactly does Gatsby build?',
     content: () => (
       <>
-        Gatsby.js is a static PWA (Progressive Web App) generator. You get code and data splitting
-        out-of-the-box. Gatsby loads only the critical HTML, CSS, data, and JavaScript so your site
-        loads as fast as possible. Once loaded, Gatsby prefetches resources for other pages so
-        clicking around the site feels incredibly fast.
+        La plataforma está pensada para los electores, esto es, ciudadanos cubanos con derecho al voto, 
+      ellos pueden abrir una cuenta de tipo Elector y tener acceso a todas las funcionalidades de Ágora 2. 
+      Adicionalmente, las cuentas de tipo Observador están pensadas para usuarios que, sin formar parte 
+      activa del proceso eleccionario, quieran participar observando el proceso e interviniendo en los 
+      debates. Consideramos que esta posibilidad enriquecerá las discusiones ayudando a contrastar y validar 
+      opiniones y puntos de vista.
       </>
     )
   }
