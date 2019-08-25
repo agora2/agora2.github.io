@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
+import ExternalLink from '@common/ExternalLink';
 
 const TEAM = [
   {
@@ -55,7 +56,6 @@ const Team = () => (
           <TeamGrid>
             {TEAM.map(({ name, image, role }) => {
               const img = data.allFile.edges.find(({ node }) => node.relativePath === image).node;
-
               return (
                 <div>
                   <Img fluid={img.childImageSharp.fluid} alt={name} />
@@ -65,41 +65,47 @@ const Team = () => (
               );
             })}
           </TeamGrid>
+          <TeamCallForActionSection>
+            <h3>Interesado en colaborar? </h3>
+            <p>
+              Lee nuestro{' '}
+              <ExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/A01-2019_Codigo_de_Conducta.pdf">
+                Código de Conducta
+              </ExternalLink>{' '}
+              y escríbenos a{' '}
+              <ExternalLink href="mailto:coordinador@agora2.org">
+                coordinador@agora2.org
+              </ExternalLink>
+            </p>
+          </TeamCallForActionSection>
+          <TeamCallForActionSection>
+            <h3>Sugerencias? Comentarios? Ideas? </h3>
+            <p>
+              Primero lee{' '}
+              <ExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
+                el artículo
+              </ExternalLink>{' '}
+              del proyecto y escríbenos a{' '}
+              <ExternalLink href="mailto:coordinador@agora2.org">
+                coordinador@agora2.org
+              </ExternalLink>
+            </p>
+          </TeamCallForActionSection>
           <Art>
             <Img fluid={data.art_team.childImageSharp.fluid} />
           </Art>
           <ArtMobile>
             <Img fluid={data.art_team.childImageSharp.fluid} />
           </ArtMobile>
-          <section>
-            <br/>
-            <br/>
-            <p>
-             Interesado en colaborar?
-             <br/>
-             Lee nuestro &nbsp;
-             <a href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/A01-2019_Codigo_de_Conducta.pdf">
-             Código de Conducta</a> 
-             &nbsp; y escríbenos a <a href="mailto:coordinador@agora2.org">coordinador@agora2.org</a>.
-            </p>
-          </section>
-          <section>
-            <br/>
-            <br/>
-            <p>
-             Sugerencias? Comentarios? Ideas?
-             <br/>
-             Lee &nbsp;
-             <a href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
-             el PDF</a> 
-             &nbsp; del proyecto y escríbenos a  <a href="mailto:coordinador@agora2.org">coordinador@agora2.org</a>. 
-            </p>
-          </section>
         </Container>
       </Section>
     )}
   />
 );
+
+const TeamCallForActionSection = styled.section`
+  padding: 20px 0;
+`;
 
 const TeamGrid = styled.div`
   display: grid;
@@ -109,6 +115,7 @@ const TeamGrid = styled.div`
   justify-content: space-between;
   width: 60%;
   margin-top: 72px;
+  margin-bottom: 45px;
 
   @media (max-width: ${(props) => props.theme.screen.lg}) {
     justify-content: start;
