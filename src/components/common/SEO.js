@@ -2,17 +2,17 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'Agora 2 project page',
-  title: 'Ágora 2',
-  url: '',
-  author: 'ajayns',
-  keywords: ['gatsby', 'site', 'agora2'],
+  description: 'Plataforma de Democracia 2.0 para la circunscripción cubana.',
+  title: 'Agora 2',
+  url: 'www.agora2.org',
+  author: 'Projecto Agora2 Cuba',
+  keywords: ['democracia2.0', 'cuba', 'agora'],
   twitter: {
-    id: '@ajayns08',
+    id: '@agora2cuba',
     img: ''
   },
   facebook: {
-    id: '',
+    id: '@agora2cuba',
     img: ''
   }
 };
@@ -28,8 +28,8 @@ const SEO = () => {
       <meta property="og:description" content={SEO_DATA.description} />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@hackinoutco" />
-      <meta name="twitter:site" content="@hackinoutco" />
+      <meta name="twitter:creator" content="@agora2cuba" />
+      <meta name="twitter:site" content="@agora2cuba" />
       <meta name="twitter:title" content={SEO_DATA.title} />
       <meta name="twitter:description" content={SEO_DATA.description} />
       <meta name="twitter:domain" content={SEO_DATA.url} />
