@@ -3,7 +3,6 @@ import React from 'react';
 import { Section, Container } from '@components/global';
 
 import FaqItem from '@common/FaqItem';
-import ExternalLink from '@common/ExternalLink';
 
 const FAQS = [
   {
@@ -298,7 +297,7 @@ const FAQS = [
 ];
 
 const Faq = () => (
-  <Section id="faq">
+  <Section id="preguntas_y_respuestas">
     <Container>
       <h1 style={{ marginBottom: 40 }}>Preguntas y respuestas</h1>
       <div>

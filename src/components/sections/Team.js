@@ -17,7 +17,7 @@ const TEAM = [
     role: 'Coordinador'
   },
   {
-    name: 'Adrián Hernández-Méndez',
+    name: 'Adrian Hernández-Méndez',
     image: 'adrian.jpg',
     role: 'Coordinador'
   }
@@ -49,7 +49,7 @@ const Team = () => (
       }
     `}
     render={(data) => (
-      <Section id="team" accent="secondary">
+      <Section id="equipo" accent="secondary">
         <Container style={{ position: 'relative' }}>
           <h1>El Equipo</h1>
           <TeamGrid>

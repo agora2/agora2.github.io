@@ -35,7 +35,7 @@ const About = () => (
       }
     `}
     render={(data) => (
-      <Section id="about">
+      <Section id="proyecto">
         <Container>
           <Grid>
             <div>

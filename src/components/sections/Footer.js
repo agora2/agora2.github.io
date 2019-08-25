@@ -7,7 +7,6 @@ import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 import GithubIcon from '@static/icons/github.svg';
-import InstagramIcon from '@static/icons/instagram.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
 import FacebookIcon from '@static/icons/facebook.svg';
 

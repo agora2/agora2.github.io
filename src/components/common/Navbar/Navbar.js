@@ -7,8 +7,7 @@ import { Nav, NavItem, Brand, StyledContainer, NavListWrapper, MobileMenu, Mobil
 
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 
-const myNAV_ITEMS = ['Proyecto', 'Equipo', 'Preguntas y respuestas'];
-const NAV_ITEMS = ['About', 'Team', 'Faq'];
+const NAV_ITEMS = ['Proyecto', 'Equipo', 'Preguntas y respuestas'];
 
 class Navbar extends Component {
   state = {
@@ -26,7 +25,7 @@ class Navbar extends Component {
   };
 
   getNavAnchorLink = (item) => (
-    <AnchorLink href={`#${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
+    <AnchorLink href={`#${item.toLowerCase().split(' ').join('_')}`} onClick={this.closeMobileMenu}>
       {item}
     </AnchorLink>
   );
@@ -38,7 +37,7 @@ class Navbar extends Component {
         currentClassName="active"
         mobile={mobile}
         offset={-64}>
-        {myNAV_ITEMS.map((navItem) => (
+        {NAV_ITEMS.map((navItem) => (
           <NavItem key={navItem}>{this.getNavAnchorLink(navItem)}</NavItem>
         ))}
       </Scrollspy>
