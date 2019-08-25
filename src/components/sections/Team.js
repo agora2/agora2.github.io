@@ -7,34 +7,19 @@ import { Section, Container } from '@components/global';
 
 const TEAM = [
   {
-    name: 'Josh Peck',
-    image: 'josh.jpg',
-    role: 'Founder'
+    name: 'Rogelio Díaz-Méndez',
+    image: 'rogelio.jpg',
+    role: 'Coordinador'
   },
   {
-    name: 'Lisa Haydon',
-    image: 'lisa.jpg',
-    role: 'Art Director'
+    name: 'Julio A. Fernández Estrada',
+    image: 'julioa.jpg',
+    role: 'Coordinador'
   },
   {
-    name: 'Ashlyn Harris',
-    image: 'ashlyn.jpg',
-    role: 'Frontend Engineer'
-  },
-  {
-    name: 'Todd Joseph',
-    image: 'todd.jpg',
-    role: 'Designer'
-  },
-  {
-    name: 'Martin White',
-    image: 'martin.jpg',
-    role: 'Backend Engineer'
-  },
-  {
-    name: 'Rose Leslie',
-    image: 'rose.jpg',
-    role: 'Marketing'
+    name: 'Adrián Hernández-Méndez',
+    image: 'adrian.jpg',
+    role: 'Coordinador'
   }
 ];
 
@@ -66,7 +51,7 @@ const Team = () => (
     render={(data) => (
       <Section id="team" accent="secondary">
         <Container style={{ position: 'relative' }}>
-          <h1>The Team</h1>
+          <h1>El Equipo</h1>
           <TeamGrid>
             {TEAM.map(({ name, image, role }) => {
               const img = data.allFile.edges.find(({ node }) => node.relativePath === image).node;
@@ -86,6 +71,30 @@ const Team = () => (
           <ArtMobile>
             <Img fluid={data.art_team.childImageSharp.fluid} />
           </ArtMobile>
+          <section>
+            <br/>
+            <br/>
+            <p>
+             Interesado en colaborar?
+             <br/>
+             Lee nuestro &nbsp;
+             <a href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/A01-2019_Codigo_de_Conducta.pdf">
+             Código de Conducta</a> 
+             &nbsp; y escríbenos a <a href="mailto:coordinador@agora2.org">coordinador@agora2.org</a>.
+            </p>
+          </section>
+          <section>
+            <br/>
+            <br/>
+            <p>
+             Sugerencias? Comentarios? Ideas?
+             <br/>
+             Lee &nbsp;
+             <a href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
+             el PDF</a> 
+             &nbsp; del proyecto y escríbenos a  <a href="mailto:coordinador@agora2.org">coordinador@agora2.org</a>. 
+            </p>
+          </section>
         </Container>
       </Section>
     )}

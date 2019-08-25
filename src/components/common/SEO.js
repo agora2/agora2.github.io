@@ -2,8 +2,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'Agora2 project page',
-  title: 'Agora2',
+  description: 'Agora 2 project page',
+  title: 'Ágora 2',
   url: '',
   author: 'ajayns',
   keywords: ['gatsby', 'site', 'agora2'],

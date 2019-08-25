@@ -9,6 +9,7 @@ import ExternalLink from '@common/ExternalLink';
 import GithubIcon from '@static/icons/github.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
+import FacebookIcon from '@static/icons/facebook.svg';
 
 const SOCIAL = [
   {
@@ -16,12 +17,12 @@ const SOCIAL = [
     link: 'https://github.com/agora2'
   },
   {
-    icon: InstagramIcon,
-    link: 'https://instagram.com/agora2'
+    icon: TwitterIcon,
+    link: 'https://twitter.com/agora2cuba'
   },
   {
-    icon: TwitterIcon,
-    link: 'https://twitter.com/agora2'
+    icon: FacebookIcon,
+    link: 'https://www.facebook.com/agora2cuba'
   }
 ];
 
@@ -49,7 +50,7 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Agora2</h2>
+              <h2>Ágora 2</h2>
               <span>
                 Illustrations by
                 {` `}

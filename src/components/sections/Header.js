@@ -27,17 +27,32 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
             <Text>
+              <p align="justify">
+                <i>
+                "[...] la gente en las ventanas y la muchedumbre [...] saludaron en la república nueva el poder de someter 
+                la ambición noble a la voluntad general y acallar ante el veto de la patria la convicción misma, fanática 
+                o previsora, del modo de salvarla."
+                </i> 
+              </p>
+              <br/>
+              <p align="right">
+                <i>
+                José Martí, Patria (1892).
+                </i>
+              </p>
               <h1>
-                Fast in
+                <br/>
+                Democracia 2.0 en la circunscripción
                 <br />
-                every way
-                <br />
-                that matters
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/agora2">
-                  Check out source &nbsp;&#x2794;
+                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
+                  Descargar el PDF del proyecto &nbsp;&#x2794;
+                </StyledExternalLink>
+              <br />
+                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/A01-2019_Codigo_de_Conducta.pdf">
+                  Descargar el código de conducta del Equipo &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
             </Text>
