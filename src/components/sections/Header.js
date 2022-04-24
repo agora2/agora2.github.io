@@ -47,7 +47,7 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
+                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v2.pdf">
                   Descargar el PDF del proyecto &nbsp;&#x2794;
                 </StyledExternalLink>
               <br />
