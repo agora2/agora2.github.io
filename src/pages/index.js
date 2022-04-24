@@ -11,6 +11,8 @@ import Footer from '@sections/Footer';
 
 const IndexPage = () => (
   <Layout>
+    <meta name="twitter:title" content="Ágora 2" />
+    <meta name="twitter:card" content="summary" />
     <Navbar />
     <Header />
     <About />

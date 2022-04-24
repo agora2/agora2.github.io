@@ -8,19 +8,19 @@ import ExternalLink from '@common/ExternalLink';
 
 const Header = () => (
   <StaticQuery
-    query={graphql`
-      query {
-        art_build: file(sourceInstanceName: { eq: "art" }, name: { eq: "build" }) {
-          childImageSharp {
+  query={graphql`
+  query {
+    art_build: file(sourceInstanceName: { eq: "art" }, name: { eq: "build" }) {
+      childImageSharp {
             fluid(maxWidth: 1400) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
       }
-    `}
-    render={(data) => (
-      <HeaderWrapper>
+      `}
+      render={(data) => (
+        <HeaderWrapper>
         <Container>
           <Grid>
             <Art>
@@ -47,12 +47,16 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
+                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v2.pdf">
                   Descargar el PDF del proyecto &nbsp;&#x2794;
                 </StyledExternalLink>
               <br />
                 <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/A01-2019_Codigo_de_Conducta.pdf">
                   Descargar el código de conducta del Equipo &nbsp;&#x2794;
+                </StyledExternalLink>
+              <br />
+                <StyledExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Finanzas.xlsx">
+                  Ver las finanzas &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
             </Text>
@@ -60,19 +64,19 @@ const Header = () => (
         </Container>
       </HeaderWrapper>
     )}
-  />
-);
-
-const HeaderWrapper = styled.header`
-  background-color: ${(props) => props.theme.color.primary};
-  padding-top: 96px;
-
-  @media (max-width: ${(props) => props.theme.screen.md}) {
-    padding-top: 128px;
-  }
-`;
-
-const Art = styled.figure`
+    />
+    );
+    
+    const HeaderWrapper = styled.header`
+    background-color: ${(props) => props.theme.color.primary};
+    padding-top: 96px;
+    
+    @media (max-width: ${(props) => props.theme.screen.md}) {
+      padding-top: 128px;
+    }
+    `;
+    
+    const Art = styled.figure`
   width: 100%;
   margin: 0;
 

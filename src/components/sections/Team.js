@@ -9,19 +9,48 @@ import ExternalLink from '@common/ExternalLink';
 const TEAM = [
   {
     name: 'Rogelio Díaz-Méndez',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Rogelio.txt',
     image: 'rogelio.jpg',
     role: 'Coordinador'
   },
   {
-    name: 'Julio A. Fernández Estrada',
-    image: 'julioa.jpg',
-    role: 'Coordinador'
+    name: 'Tamara Roselló Reina',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Tamara.txt',
+    image: 'tamara.jpg',
+    role: 'Coordinadora'
   },
   {
     name: 'Adrian Hernández-Méndez',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Adrian.txt',
     image: 'adrian.jpg',
     role: 'Coordinador'
-  }
+  },
+  {
+    name: 'Eduardo Sánchez',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Eduardo.txt',
+    image: 'eduardo.jpg',
+    role: 'Desarrollador'
+  },
+  {
+    name: 'Marcos Paz Sablón',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Marcos.txt',
+    image: 'marcos.jpg',
+    role: 'Comunicador'
+  },
+  {
+    name: 'Norma Palmero',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Norma.txt',
+    image: 'norma.jpg',
+    role: 'Colaboradora'
+  },
+
+  {
+    name: 'Alejandro Nuñez',
+    url: 'https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/Equipo/Ficha_Alejandro.txt',
+    image: 'alejandro.png',
+    role: 'Desarrollador'
+  },
+  
 ];
 
 const Team = () => (
@@ -54,12 +83,12 @@ const Team = () => (
         <Container style={{ position: 'relative' }}>
           <h1>El Equipo</h1>
           <TeamGrid>
-            {TEAM.map(({ name, image, role }) => {
+            {TEAM.map(({ name, url, image, role }) => {
               const img = data.allFile.edges.find(({ node }) => node.relativePath === image).node;
               return (
                 <div>
                   <Img fluid={img.childImageSharp.fluid} alt={name} />
-                  <Title>{name}</Title>
+                  <Title><a href = {url} >{name}</a></Title>
                   <Subtitle>{role}</Subtitle>
                 </div>
               );
@@ -73,21 +102,21 @@ const Team = () => (
                 Código de Conducta
               </ExternalLink>{' '}
               y escríbenos a{' '}
-              <ExternalLink href="mailto:coordinador@agora2.org">
-                coordinador@agora2.org
+              <ExternalLink href="mailto:agora2coordinadores@gmail.com">
+                agora2coordinadores@gmail.com
               </ExternalLink>
             </p>
           </TeamCallForActionSection>
           <TeamCallForActionSection>
             <h3>Sugerencias? Comentarios? Ideas? </h3>
             <p>
-              Primero lee{' '}
+              Lee{' '}
               <ExternalLink href="https://github.com/agora2/agora2.github.io/blob/develop/DocsToDownload/proyecto_Agora_v1.pdf">
                 el artículo
               </ExternalLink>{' '}
               del proyecto y escríbenos a{' '}
-              <ExternalLink href="mailto:coordinador@agora2.org">
-                coordinador@agora2.org
+              <ExternalLink href="mailto:agora2coordinadores@gmail.com">
+                agora2coordinadores@gmail.com
               </ExternalLink>
             </p>
           </TeamCallForActionSection>

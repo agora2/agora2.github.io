@@ -41,8 +41,8 @@ const About = () => (
             <div>
               <h2>Lo que es Ágora 2</h2>
               <p align="justify">
-                <li> Ágora 2 es una plataforma interactiva para asistir al ciudadano en el proceso eleccionario 
-                  de nivel municipal en la República de Cuba.
+                <li> Ágora 2 es un servicio interactivo orientado a impulsar la discusión política 
+                  y mejorar la calidad del proceso electoral a nivel municipal en la República de Cuba.
                 </li>
                 <br/>
                 <li> Su diseño explota convenientemente la armonía entre los elementos esenciales de la llamada 
@@ -92,19 +92,16 @@ const About = () => (
               <br/>
               <h2>Funcionamiento de Ágora 2</h2>
               <p align="justify">
-                <li> Todo ciudadano cubano con derecho al voto podrá conectarse desde internet a la página 
-                  o la app de la plataforma y buscar su circunscripción. Allí existirá un debate, del mismo 
-                  tipo que el de los barrios, en forma de sala de chat permanente. 
+                <li> Todo cubano con derecho al voto y cuenta en Télegram podrá acceder a los servicios 
+                  de la plataforma e incorporarse a los debates de su comunidad.                
                 </li>
                 <br/>
-                <li> Existirá un sistema de apoyo a nominaciones, de promoción de debate, interacción y validación 
-                  de criterios, elección de ideas, entre otros, en consonancia con muchas ideas de la llamada Democracia 2.0. 
+                <li> Existirá un sistema de visibilización de apoyos a electores, y de banco de ideas en 
+                  consonancia con las características de democracia 2.0. 
                 </li>
                 <br/>
-                <li> Además de las cuentas de usuario de los electores (cuentas tipo Elector) habrá cuentas de 
-                  tipo Observador que podrá tener cualquier persona conectada a internet. 
-                  Con estas se podrá eventualmente participar de los debates y acceder de forma restringida a otras 
-                  funcionalidades de la plataforma.
+                <li> Toda persona conectada a internet podrá observar los debates pero solo los electores podrán 
+                  tener una cuenta que les permitirá intervenir en los debates y usar las demás funciones.
                 </li>
                 <br/>
                 <li> Las reglas del debate garantizarán que todas las opiniones tengan espacio y respeto. 
@@ -130,13 +127,11 @@ const About = () => (
               <h2>Fases de desarrollo</h2>
               <p align="justify">
                  <ol>
-                    <li> Reunir de forma voluntaria un equipo de trabajo numeroso que incluya diseñadores y 
-                      programadores, pero también juristas, sociólogos y otras especializaciones a medida que 
-                      el proyecto evolucione.    
+                    <li> Reunir de forma voluntaria un equipo de trabajo.    
                     </li>
                     <br/>
-                   <li> Discutir y establecer colectivamente las especificidades técnicas de la primera versión de la 
-                     plataforma y construirla siguiendo un plan de trabajo estructurado.
+                   <li> Discutir y establecer colectivamente las especificidades de la primera versión del 
+                     servicio y construirlo siguiendo un plan de trabajo estructurado.
                     </li>
                     <br/>
                     <li> Poner en línea la plataforma inicialmente como fase de prueba incluyendo solo algunas
@@ -146,7 +141,9 @@ const About = () => (
                     <li> Decidir, poner a punto y publicar la forma de hacer las donaciones.  
                     </li>
                     <br/>
-                    <li> Lanzar la plataforma Ágora 2 en una versión completamente funcional. 
+                    <li> Lanzar la plataforma Ágora 2 en una versión completamente funcional. Establecer el 
+                      reglamento definitivo para el funcionamiento del Equipo que incluya un mecanismo de 
+                      renovación democrática de los coordinadores.   
                     </li>
                   </ol>  
               </p>
