@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Léster Morera Ramos, conocido en las redes sociales como Léster Pro, es 
 economista, turismólogo, promotor de eventos, fotógrafo y comunista.
+=======
+Léster Morera Ramos, conocido en las redes sociales como Léster Pro, es economista, turismólogo, promotor de eventos, fotógrafo y comunista.
+>>>>>>> 82fcdd562c4d6bc85c5474370f4852ac6970322e

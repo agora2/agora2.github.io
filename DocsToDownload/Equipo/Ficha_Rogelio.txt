@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Rogelio G. Díaz Méndez es licenciado en física y doctor en ciencias físicas por la Universidad de La Habana (UH), ha trabajado como profesor en la Universidad Tecnológica de La Habana (CUJAE) y la UH, y como investigador de postdoctorado en la Universidad de Estrasburgo y en el Instituto Real de Tecnología (KTH) en Estocolmo.
+=======
+Rogelio G. Díaz Méndez es licenciado en física y doctor en ciencias físicas por la Universidad de La Habana (UH), ha trabajado como profesor en la Universidad Tecnológica de La Habana (CUJAE) y la UH, y como investigador en la Universidad de Estrasburgo y en el Instituto Real de Tecnología (KTH) en Estocolmo.
+
+>>>>>>> 82fcdd562c4d6bc85c5474370f4852ac6970322e

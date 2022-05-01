@@ -1,1 +1,5 @@
 Adrián Hernández Méndez es ingeniero biomédico y máster en informática por la Universidad Tecnológica de La Habana (CUJAE), trabaja como desarrollador principal de software en Lean Information Exchande (LeanIX) en Bonn y es doctorante en la Universidad Tecnológica de Munich.   
+<<<<<<< HEAD
+=======
+
+>>>>>>> 82fcdd562c4d6bc85c5474370f4852ac6970322e

@@ -1,1 +1,6 @@
 Julio Antonio Fernández Estrada es licenciado en derecho y doctor en ciencias jurídicas por la Universidad de La Habana (UH), ha sido profesor titular en la UH, miembro de las directivas del Centro Cristiano de Reflexión y Diálogo de Cárdenas y del laboratorio de ideas Cuba Posible; es columnista de On Cuba y El Toque.  
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 82fcdd562c4d6bc85c5474370f4852ac6970322e
